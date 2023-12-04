@@ -1,0 +1,64 @@
+body{
+    background-color: rgba(199, 49, 176, 0.991);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: cursive;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-left: 25%;
+    margin-top: 20px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 450px;
+    width: 450px;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 20px;
+    position: fixed;
+    left: 25%;
+}
+.fname, .lname, .email, .phone{
+    margin-left: 28px;
+    width: 270px;
+    height: 30px;
+    margin-top: 20px;
+    padding-left: 3px;
+}
+.email{
+    margin-left: 2px;
+}
+.phone{
+    margin-left: 40px;
+}
+input:focus{
+    outline: none;
+    border-color: white;
+}
+.submit, .reset{
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    background-color: rgb(220, 20, 170);
+    border: 2px solid white;
+    color: white;
+    border-radius: 3px;
+    margin-top: 100px; 
+    cursor: pointer;
+    font-weight: 600;
+      
+}
+.submit{
+    margin-left: 30%;
+    margin-right: 10px;
+}
