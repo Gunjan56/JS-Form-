@@ -1,28 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Js Form </title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Info Form Using JavaScript</h1>
     <div class="main">
-        <form action="" method="get" class="form">
-            <label for="fname">First Name: </label>
-            <input type="text" name="name" id="" placeholder="Enter Your First Name" class="fname"><br>
-            <label for="lname">Last Name:</label>
-            <input type="text" name="lname" id="" placeholder="Enter Your Last Name" class="lname"><br>
-            <label for="email">Email Address:</label>
-            <input type="text" name="email" id="" placeholder="Enter Your Email " class="email"><br>
-            <label for="phone">Phone No: </label>
-            <input type="number" name="phone" id="" placeholder="Enter Your Phone no"  class="phone"><br>
-            <button type="submit" class="submit">Submit</button>
-            <button type="reset" class="reset">Reset</button>
-        </form>
+        <h3>--Please Fill This Form--</h3>
+      <form action="" method="get" class="form">
+        <label for="fname">First Name: </label>
+        <input
+          type="text"
+          name="name"
+          id="fname"
+          placeholder="Enter Your First Name"
+          class="fname"
+        /><br /><p class="error"></p>
+        <label for="lname">Last Name:</label>
+        <input
+          type="text"
+          name="lname"
+          id="lname"
+          placeholder="Enter Your Last Name"
+          class="lname"
+        /><br /><p class="error"></p>
+        <label for="fullname">Full Name: </label>
+        <input
+          type="text"
+          name="fullname"
+          class="fullname"
+          id="fullname"
+          placeholder="Your Full Name"
+        /><br /><p class="error"></p>
+        <label for="email">Email Address:</label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Enter Your Email "
+          class="email"
+        /><br /><p class="error"></p>
+        <label for="phone">Phone No: </label>
+        <input
+          type="number"
+          name="phone"
+          id="phone"
+          placeholder="Enter Your Phone no"
+          class="phone"
+        /><br /><p class="error"></p>
+        <label for="dob">Date Of Birth: </label>
+        <input type="date" name="dob" class="dob" id="dob" /><br />
+        <label for="pass">Password: </label>
+        <input type="password" name="pass" id="pass" placeholder="Enter your Password" class="pass"><br>
+        <label for="passRe">ReEnter Password:</label>
+        <input type="password" name="passRe" id="passRe" class="passRe" placeholder="Enter Your Password"><br>
+        <label for="graduation">Graduation Year: </label>
+        <select name="graduation" id="graduation" class="graduation">
+          <option value="">--Please choose an option--</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+        </select><br>
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" id="genderM" class="genderM" />Male
+        <input type="radio" name="gender" id="genderF" class="genderF" />Female<br />
+        <label for="language">Language: </label>
+        <input type="checkbox" name="checkbox" class="checkbox" id="checkbox">JavaScript
+        <input type="checkbox" name="checkbox" class="checkbox" id="check1">Python
+        <input type="checkbox" name="checkbox" id="check2" class="checkbox">ReactJs
+        <input type="checkbox" name="checkbox" class="checkbox" id="check3">C++ <br>
+        <button type="submit" class="submit">Submit</button>
+        <button type="reset" class="reset">Reset</button>
+      </form>
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
