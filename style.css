@@ -13,35 +13,34 @@ body{
 }
 h1{
     text-align: center;
-    margin-top: 10px;
 }
 h3{
     text-align: center;
-    margin-top: 0;
-    padding: 0;
 }
 .main{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    height: 570px;
+    height: 608px;
     width: 450px;
     margin: auto;
-    margin-top: 10px;
     border: 2px solid white;
-    border-radius: 4px;
-    padding: 10px;
-    
+    border-radius: 2px;    
 }
 .fname, .lname, .email, .phone, .fullname, .dob, .pass{
     margin-left: 29px;
     width: 270px;
-    height: 32px;
-    margin-top: 10px;
+    height: 30px;
+    margin-top: 12px;
     padding-left: 3px;
     outline-color:white;
 }
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+}
 .fname{
+    margin-top: 0;
     margin-left: 23px;
 }
 .email, .dob{
@@ -61,7 +60,7 @@ h3{
     margin-left: 5px;
     width: 235px;
     height: 32px;
-    margin-top: 10px;
+    margin-top: 8px;
     padding-left: 3px;
     outline-color:white;
 }
@@ -76,14 +75,32 @@ h3{
     margin-left: 30px;
     margin-right: 10px;
 }
-.error{
-    font-size: 15px;
-    margin: 0;
-    padding: 0;
-    color: white;
+p{
+    color: black;
+    font-size: 12px;
+    text-align: center;
+}
+.error-fname{
+    margin-left: -25px;
+    
+}
+.error-lname{
+    margin-left: -33px;
+   
+}
+.error-phone{
+    margin-left: -38px;
+    
+}
+.error-pass{
+    margin-left: -30px;
+   
+}
+.error-passRe{
+    margin-left: 42px;
 }
 .graduation{
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 15px;
     height: 30px;
     background: transparent;
@@ -93,7 +110,7 @@ h3{
     color: white;
 }
 #checkbox{
-    margin-top: 10px;
+    margin-top: 8px;
     margin-left: 22px;
 }
 .checkbox{
@@ -115,23 +132,21 @@ input{
     outline: none;
 }
 .submit, .reset{
-    height: 40px;
+    height: 35px;
     width: 80px;
     text-align: center;
     background-color: rgb(220, 20, 170);
     border: 2px solid white;
     color: white;
-    border-radius: 3px;
-    margin-top: 33px; 
+    margin-top: 12px;
     cursor: pointer;
-    font-weight: 600;
-      
 }
 .submit{
-    margin-left: 30%;
+    margin-left: 110px;
     margin-right: 10px;
 }
 ::placeholder{
     color: white;
     opacity: 0.5;
 }
+
