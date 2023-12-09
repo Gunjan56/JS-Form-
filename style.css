@@ -1,152 +1,161 @@
-body{
-    background-color: rgba(199, 49, 176, 0.991);
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-family: cursive;
+body {
+  background-color: rgba(199, 49, 176, 0.991);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: cursive;
 }
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
-h3{
-    text-align: center;
+h3 {
+  text-align: center;
 }
-.main{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 608px;
-    width: 450px;
-    margin: auto;
-    border: 2px solid white;
-    border-radius: 2px;    
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 608px;
+  width: 450px;
+  margin: auto;
+  border: 2px solid white;
+  border-radius: 2px;
 }
-.fname, .lname, .email, .phone, .fullname, .dob, .pass{
-    margin-left: 29px;
-    width: 270px;
-    height: 30px;
-    margin-top: 12px;
-    padding-left: 3px;
-    outline-color:white;
+.fname,
+.lname,
+.email,
+.phone,
+.fullname,
+.dob,
+.pass {
+  margin-left: 29px;
+  width: 270px;
+  height: 30px;
+  margin-top: 12px;
+  padding-left: 3px;
+  outline-color: white;
 }
-.btn{
-    display: flex;
-    flex-wrap: wrap;
+.btn {
+  display: flex;
+  flex-wrap: wrap;
 }
-.fname{
-    margin-top: 0;
-    margin-left: 23px;
+.fname {
+  margin-top: 0;
+  margin-left: 23px;
 }
-.email, .dob{
-    margin-left: 2px;
+.email,
+.dob {
+  margin-left: 2px;
 }
-.phone{
-    margin-left: 38px;
+.phone {
+  margin-left: 38px;
 }
-.fullname{
-    margin-left: 35px;
-    
+.fullname {
+  margin-left: 35px;
 }
-.pass{
-    margin-left: 38px;
+.pass {
+  margin-left: 38px;
 }
-.passRe{
-    margin-left: 5px;
-    width: 235px;
-    height: 32px;
-    margin-top: 8px;
-    padding-left: 3px;
-    outline-color:white;
+.passRe {
+  margin-left: 5px;
+  width: 235px;
+  height: 32px;
+  margin-top: 8px;
+  padding-left: 3px;
+  outline-color: white;
 }
-.genderM{
-    margin-left: 80px;
-    margin-right: 10px;
+.genderM {
+  margin-left: 80px;
+  margin-right: 10px;
 }
-.genderM, .genderF{
-    margin-top: 15px;
+.genderM,
+.genderF {
+  margin-top: 15px;
 }
-.genderF{
-    margin-left: 30px;
-    margin-right: 10px;
+.genderF {
+  margin-left: 30px;
+  margin-right: 10px;
 }
-p{
-    color: black;
-    font-size: 12px;
-    text-align: center;
+p {
+  color: black;
+  font-size: 12px;
+  text-align: center;
 }
-.error-fname{
-    margin-left: -25px;
-    
+.error-fname {
+  margin-left: -25px;
 }
-.error-lname{
-    margin-left: -33px;
-   
+.error-lname {
+  margin-left: -33px;
 }
-.error-phone{
-    margin-left: -38px;
-    
+.error-fullname {
+  margin-left: -34px;
 }
-.error-pass{
-    margin-left: -30px;
-   
+.error-phone {
+  margin-left: -38px;
 }
-.error-passRe{
-    margin-left: 42px;
+.error-pass {
+  margin-left: -30px;
 }
-.graduation{
-    margin-top: 10px;
-    margin-left: 15px;
-    height: 30px;
-    background: transparent;
-    background-color: rgba(199, 49, 176, 0.991);
-    border-radius:4px solid white;
-    border-color: white;
-    color: white;
+.error-email {
+  margin-left: -15px;
 }
-#checkbox{
-    margin-top: 8px;
-    margin-left: 22px;
+.error-passRe {
+  margin-left: 42px;
 }
-.checkbox{
-    margin-right: 4px;
+.graduation {
+  margin-top: 10px;
+  margin-left: 15px;
+  height: 30px;
+  background: transparent;
+  background-color: rgba(199, 49, 176, 0.991);
+  border-radius: 4px solid white;
+  border-color: white;
+  color: white;
 }
-select{
-    border-color: white;
-    outline: 1px solid white;
+#checkbox {
+  margin-top: 8px;
+  margin-left: 22px;
 }
-input:focus{
-    outline: none;
-    border-color: white;
+.checkbox {
+  margin-right: 4px;
 }
-input{
-    background-color: transparent;
-    color: white;
-    border-color: white;
-    font-size: 13px;
-    outline: none;
+select {
+  border-color: white;
+  outline: 1px solid white;
 }
-.submit, .reset{
-    height: 35px;
-    width: 80px;
-    text-align: center;
-    background-color: rgb(220, 20, 170);
-    border: 2px solid white;
-    color: white;
-    margin-top: 12px;
-    cursor: pointer;
+input:focus {
+  outline: none;
+  border-color: white;
 }
-.submit{
-    margin-left: 110px;
-    margin-right: 10px;
+input {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  font-size: 13px;
+  outline: none;
 }
-::placeholder{
-    color: white;
-    opacity: 0.5;
+.submit,
+.reset {
+  height: 35px;
+  width: 80px;
+  text-align: center;
+  background-color: rgb(220, 20, 170);
+  border: 2px solid white;
+  color: white;
+  margin-top: 12px;
+  cursor: pointer;
 }
-
+.submit {
+  margin-left: 110px;
+  margin-right: 10px;
+}
+::placeholder {
+  color: white;
+  opacity: 0.5;
+}
