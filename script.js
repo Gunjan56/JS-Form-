@@ -44,6 +44,7 @@ form.addEventListener("submit", function (event) {
     errorPhone.innerHTML = "Enter Your phoneNo";
   } else if (phoneNo.value.length !== 10) {
     errorPhone.innerHTML = "Phone No Should be 10 digits";
+    errorPhone.style.marginLeft = "30px";
   } else if (phoneNo.value < 0) {
     errorPhone.innerHTML = "Please enter a valid phone No";
   } else {
@@ -56,6 +57,7 @@ form.addEventListener("submit", function (event) {
     errorEmail.innerHTML = "Enter Your email Address";
   } else if (result === false) {
     errorEmail.innerHTML = "Enter a valid email";
+    errorEmail.innerHTML.style.marginLeft = "20px";
   } else {
     errorEmail.innerHTML = "";
   }
